@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Full ocl (Debug)",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Full ocl (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Full ocl (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Full ocl (Web on Firefox)", // <--- إضافة خيار جديد هنا
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug", // يمكنك تغييرها إلى "profile" أو "release" حسب الحاجة
+            "args": ["-d", "firefox"] // <--- هذا هو الجزء الذي يحدد المتصفح
+        }
+    ]
+}
